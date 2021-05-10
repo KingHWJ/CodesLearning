@@ -31,34 +31,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="13" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
-  <component name="RunManager" selected="Application.OutputAndInput">
-    <configuration name="Basiss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataType.Basiss" />
-      <module name="BasicGrammar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DataType.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataConvert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataType.DataConvert" />
-      <module name="BasicGrammar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DataType.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.nArray">
     <configuration name="IfSwitch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProcessControl.IfSwitch" />
       <module name="BasicGrammar" />
@@ -85,6 +61,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="aArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayOper.aArray" />
+      <module name="BasicGrammar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArrayOper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayOper.nArray" />
+      <module name="BasicGrammar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArrayOper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayOper.sortArray" />
+      <module name="BasicGrammar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArrayOper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -98,10 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.nArray" />
+        <item itemvalue="Application.sortArray" />
+        <item itemvalue="Application.aArray" />
         <item itemvalue="Application.OutputAndInput" />
         <item itemvalue="Application.IfSwitch" />
-        <item itemvalue="Application.DataConvert" />
-        <item itemvalue="Application.Basiss" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +133,7 @@
       <workItem from="1616743390374" duration="5811000" />
       <workItem from="1617952193217" duration="2572000" />
       <workItem from="1620630177271" duration="26000" />
-      <workItem from="1620630220577" duration="264000" />
+      <workItem from="1620630220577" duration="4086000" />
     </task>
     <servers />
   </component>
@@ -125,30 +141,35 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616743819145">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state x="184" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620637075352">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="184" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1620637075352" />
     <state x="184" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875@0.25.1440.875" timestamp="1616743819145" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1618364714110">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1620636737126">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1618364714110" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1620636737126" />
     <state width="1398" height="228" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1616745472744" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1618364714110">
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1620636737125">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1618364714110" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1620636737125" />
     <state width="1398" height="228" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1616745472743" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1618364714109">
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1620636737124">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1618364714109" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1620636737124" />
     <state width="1398" height="228" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1616745472741" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1618364714110">
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1620636737126">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1618364714110" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1620636737126" />
     <state width="1398" height="228" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1616745472743" />
+    <state x="229" y="86" key="SettingsEditor" timestamp="1620636920793">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1620636920793" />
     <state x="126" y="82" key="new project wizard" timestamp="1616743498003">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
