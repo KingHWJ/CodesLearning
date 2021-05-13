@@ -17,6 +17,9 @@ public class aArray {
         System.out.println("方式 1");
         int[] array1 = new int[5];      // 指定数组大小和类型，初始值都是0 或false 或null
         printArray(array1);
+        for (int i = 0; i < 5; i++){
+            array1[i] = i * 10;  //赋值
+        }
 
         System.out.println("\n方式2");
         int[] array2 = new int[]{10, 20, 30, 40, 50};   // 不指定具体长度，直接添加数组内容，建好后，无法更改长度
@@ -27,7 +30,7 @@ public class aArray {
         printArray(array3);
 
         System.out.println("for each 遍历数组");
-        for (int num:array2) {
+        for (int num : array2) {
             System.out.println(num);
         }
 

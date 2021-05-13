@@ -3,14 +3,16 @@ package ProcessControl;
 import java.util.Scanner;
 
 // if判断
-public class IfSwitch {
+public class IfTest {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("请输入成绩：");
         int i = scanner.nextInt();
         if(i >= 90){
             System.out.println("优秀了");
-        } else if(i >= 60){
+        } else if(i >= 80)
+            System.out.println("良好");
+        else if(i >= 60){
             System.out.println("及格了");
         }else{
             System.out.println("没及格");
