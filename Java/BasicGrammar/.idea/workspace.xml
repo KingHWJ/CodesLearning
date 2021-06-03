@@ -43,14 +43,40 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="13" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.ObjectArray">
-    <configuration name="CircleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OPP.test.CircleTest" />
+  <component name="RunManager" selected="Application.Stranger">
+    <configuration name="Customer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Project.P2_CustomerInformationMange.Customer" />
+      <module name="BasicGrammar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.P2_CustomerInformationMange.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Project.P2_CustomerInformationMange.CustomerView" />
+      <module name="BasicGrammar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.P2_CustomerInformationMange.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Stranger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OPP.test.Stranger" />
       <module name="BasicGrammar" />
       <extension name="coverage">
         <pattern>
@@ -62,51 +88,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OPP.test.ObjectArray" />
+    <configuration name="no_5_Permission" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OPP.no_5_Permission" />
+      <module name="BasicGrammar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OPP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="recursionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OPP.test.recursionTest" />
       <module name="BasicGrammar" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="OPP.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="no_2_construct_method" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OPP.no_2_construct_method" />
-      <module name="BasicGrammar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OPP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="no_3_OverLoad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OPP.no_3_OverLoad" />
-      <module name="BasicGrammar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OPP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="no_4_Inheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OPP.no_4_Inheritance" />
-      <module name="BasicGrammar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OPP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ObjectArray" />
-        <item itemvalue="Application.CircleTest" />
-        <item itemvalue="Application.no_4_Inheritance" />
-        <item itemvalue="Application.no_3_OverLoad" />
-        <item itemvalue="Application.no_2_construct_method" />
+        <item itemvalue="Application.Stranger" />
+        <item itemvalue="Application.Customer" />
+        <item itemvalue="Application.CustomerView" />
+        <item itemvalue="Application.no_5_Permission" />
+        <item itemvalue="Application.recursionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +154,7 @@
       <workItem from="1620805618534" duration="8827000" />
       <workItem from="1621931236187" duration="1702000" />
       <workItem from="1621934346684" duration="3467000" />
-      <workItem from="1622442467898" duration="8416000" />
+      <workItem from="1622442467898" duration="23365000" />
     </task>
     <servers />
   </component>
@@ -162,55 +162,61 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="208" y="41" key="#Project_Structure" timestamp="1622684611100">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="208" y="41" key="#Project_Structure/0.25.1440.875@0.25.1440.875" timestamp="1622684611100" />
     <state x="184" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621933459377">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1621933459377" />
     <state x="184" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875@0.25.1440.875" timestamp="1616743819145" />
-    <state x="603" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1622536465581">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="603" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1622686837203">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="603" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1622536465581" />
-    <state width="1398" height="491" key="GridCell.Tab.0.bottom" timestamp="1622537202837">
+    <state x="603" y="75" key="#com.intellij.ide.util.MemberChooser/0.25.1440.875@0.25.1440.875" timestamp="1622686837203" />
+    <state width="1398" height="263" key="GridCell.Tab.0.bottom" timestamp="1622687930408">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="361" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1622616744139" />
+    <state width="1398" height="263" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1622687930408" />
+    <state width="1398" height="263" key="GridCell.Tab.0.center" timestamp="1622687930407">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="361" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1622616744137" />
+    <state width="1398" height="263" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1622687930407" />
+    <state width="1398" height="263" key="GridCell.Tab.0.left" timestamp="1622687930406">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="361" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1622616744136" />
+    <state width="1398" height="263" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1622687930406" />
+    <state width="1398" height="263" key="GridCell.Tab.0.right" timestamp="1622687930407">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="361" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1622616744138" />
+    <state width="1398" height="263" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1622687930407" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1622615896768">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="491" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1622537202837" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1621997404751" />
-    <state width="1398" height="491" key="GridCell.Tab.0.center" timestamp="1622537202832">
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1622615896768" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1622615896766">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="491" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1622537202832" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1621997404748" />
-    <state width="1398" height="491" key="GridCell.Tab.0.left" timestamp="1622537202832">
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1622615896766" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1622615896766">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="491" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1622537202832" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1621997404739" />
-    <state width="1398" height="491" key="GridCell.Tab.0.right" timestamp="1622537202837">
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1622615896765" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1622615896767">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="491" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1622537202837" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1621997404749" />
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1622448238441">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1622448238441" />
-    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1622448238440">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1622448238440" />
-    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1622448238440">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1622448238440" />
-    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1622448238440">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1622448238440" />
-    <state x="229" y="57" key="SettingsEditor" timestamp="1621934261650">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1622615896767" />
+    <state x="229" y="80" key="SettingsEditor" timestamp="1622684015697">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="229" y="57" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1621934261650" />
+    <state x="229" y="80" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1622684015697" />
     <state width="718" height="900" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1621931365782">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -219,9 +225,21 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="126" y="82" key="new project wizard/0.25.1440.875@0.25.1440.875" timestamp="1616743498003" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1622449383023">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="385" y="216" width="670" height="658" key="search.everywhere.popup" timestamp="1622685615288">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1622449383023" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1622614890101" />
+    <state x="385" y="216" width="670" height="658" key="search.everywhere.popup/0.25.1440.875@0.25.1440.875" timestamp="1622685615288" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/OPP/test/Stranger.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

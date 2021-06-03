@@ -9,7 +9,6 @@ public class no_4_Inheritance {
         System.out.println(u1.name);
         System.out.println(u1.age);
 
-
     }
 
 }

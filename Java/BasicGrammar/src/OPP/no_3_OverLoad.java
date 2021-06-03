@@ -8,6 +8,7 @@ public class no_3_OverLoad {
         h.hello();
         h.hello(n);
         h.hello(n,5);
+        h.hello("hwj","afad");
 
         // String类的重载方法
         String test = "Test a sentence";
@@ -25,8 +26,17 @@ class Hello{
         System.out.println("hello");
     }
 
+//    public void hello(String name2){  重载和变量名无关
+//
+//    }
+
     public void hello(String name){
         System.out.println("hello,"+name);
+    }
+
+    // 可变参数  相当于一个数组
+    public void hello(String...name){
+        System.out.println(name[0]);
     }
 
     public void hello(String name,int age){
