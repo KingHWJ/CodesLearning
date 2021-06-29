@@ -6,12 +6,12 @@ public class no_1_bass_concept {
     public static void main(String[] args) {
 
         // 创建对象
-        Person ming = new Person();
+        Person1 ming = new Person1();
         ming.name = "小明";
         ming.age = 20;
         System.out.println(ming.name);
 
-        Person hong = new Person();
+        Person1 hong = new Person1();
         hong.name = "小红";
         hong.age = 15;
 
@@ -54,7 +54,7 @@ public class no_1_bass_concept {
 
 
 // 创建类
-class Person{
+class Person1{
     public String name;
     public int age;
 }

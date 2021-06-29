@@ -10,7 +10,7 @@ public class Customer {
 
     private int custCode;       // 客户编号
     private String name;        // 姓名
-    private String isMale;         // 性别:0为男，1位女
+    private String gender;      // 性别
     private int age;            // 年龄
     private String phoneNum;    // 电话号码
     private String email;       // 邮箱
@@ -34,12 +34,12 @@ public class Customer {
         this.name = name;
     }
 
-    public String getIsMale() {
-        return isMale;
+    public String getGender() {
+        return gender;
     }
 
-    public void setIsMale(String isMale) {
-        this.isMale = isMale;
+    public void setGender(String gender) {
+        this.gender = gender;
     }
 
     public int getAge() {

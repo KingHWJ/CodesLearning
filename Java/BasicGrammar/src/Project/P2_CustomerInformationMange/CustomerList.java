@@ -3,40 +3,62 @@ package Project.P2_CustomerInformationMange;
 // 客户列表类
 public class CustomerList {
 
-    private int count;      // 计算器
+    private Customer[] custArray;
+    private int count;  // 计数器
 
-    public CustomerList() {
+    public CustomerList(int num) {
+        custArray = new Customer[num];
     }
 
-    private Customer[] custArray = new Customer[100];
-
-    // 添加客户
-    public void add(Customer cust) {
-        if (count >= custArray.length) {
-            System.out.println("客户已存满，超出数组最大容量");
-        } else {
-            custArray[count] = cust;
+    /**
+     * @description: 添加客户
+     * @return true：表示数组已满，false：表示数组未满
+     */
+    public boolean add(Customer cust) {
+        if(isFull()){
+            return false;
+        }else{
+            custArray[count++] = cust;      // 前++ 是先加后用 后++ 是先用后加
+            return true;
         }
     }
-    // 修改客户
-    public void update(Customer cust){
-        System.out.println("-----------------修改客户--------------------");
-        System.out.println("-----------------修改完成--------------------");
+
+    /**
+     * @description: 修改客户
+     * @return true：表示数组已满，false：表示数组未满
+     */
+    public boolean update(Customer cust){
+        return false;
     }
 
-    // 删除客户
-    public void delete(Customer cust){
-
+    /**
+     * @description: 删除客户
+     * @return true：表示数组已满，false：表示数组未满
+     */
+    public boolean delete(Customer cust){
+        return false;
     }
 
-    // 展示客户列表
-    public void showList() {
-        System.out.println("-----------------客户列表--------------------");
-        System.out.println("编号  姓名  性别  年龄  电话              邮箱              ");
-        for (Customer cust : custArray) {
-            System.out.printf("%d   %s  %s  %d  %s  %s\n", cust.getCustCode(), cust.getName(), cust.getIsMale(), cust.getAge(), cust.getPhoneNum(), cust.getEmail());
-        }
-        System.out.println("----------------客户列表完成-------------------");
+    /**
+     * @description: 展示客户列表
+     * @return true：表示数组已满，false：表示数组未满
+     */
+    public boolean showList() {
+        return true;
     }
 
+    /**
+     * @description: 判断客户列表是否已满
+     * @return true：表示数组已满，false：表示数组未满
+     */
+    public boolean isFull(){
+        return count >= custArray.length;
+    }
+
+    /**
+     * @description: 查找指定客户信息
+     */
+    public void getInfo(int index){
+
+    }
 }

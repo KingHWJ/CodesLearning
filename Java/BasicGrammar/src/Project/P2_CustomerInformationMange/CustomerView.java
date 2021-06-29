@@ -16,5 +16,4 @@ public class CustomerView {
         System.out.println("                   请选择(1-5): _                \n");
     }
 
-
 }
