@@ -10,6 +10,19 @@ public class no_6_Inherit {
 
         miao.test();
 
+        Manager[] managers = new Manager[10];
+
+        Employee[] staff = managers;
+
+//        managers[0] = new Manager();
+        staff[0] = new Employee();  // 子类引用指向父类是不行的，这个等价于 Manager[] managers = new Employee[]
+
+
+        System.out.println(managers[0]);
+        System.out.println(staff[0]);
+
+//        staff[0].setBonus(100);
+
     }
 
 }
@@ -60,3 +73,22 @@ class Cat extends Animal {
         System.out.println("这是子类的一个方法");
     }
 }
+
+class Employee{
+
+
+}
+
+class Manager extends Employee{
+    private double bonus;
+
+    public double getBonus() {
+        return bonus;
+    }
+
+    public void setBonus(double bonus) {
+        this.bonus = bonus;
+    }
+}
+
+

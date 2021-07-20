@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AdvancedGrammar.iml" filepath="$PROJECT_DIR$/AdvancedGrammar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multiThreading/multiThreading.iml" filepath="$PROJECT_DIR$/multiThreading/multiThreading.iml" />
+    </modules>
+  </component>
+</project>

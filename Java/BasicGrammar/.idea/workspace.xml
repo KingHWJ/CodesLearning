@@ -10,17 +10,36 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="JupyterTrust" id="1fa8bb0d-4685-4eba-8b73-d4c997d5e17e" />
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/NullPointerException.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Calendar.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Date.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/System.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Double.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Throwable.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Exception.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Error.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JupyterTrust" id="3f3352bc-f29a-46c3-a86b-388bdbc211cd" />
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -41,20 +60,36 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="13" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Project/P3_Employee_Schedule_software/View" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Application.equalsTest">
-    <configuration name="Account" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Project.P3_BankcountControl.Account" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Project/P3_Employee_Schedule_software/View" />
+      <recent name="$PROJECT_DIR$/src/Project/P3_Employee_Schedule_software/service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="OPP" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TeamView">
+    <configuration name="TSUtility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Project.P3_Employee_Schedule_software.View.TSUtility" />
       <module name="BasicGrammar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Project.P3_BankcountControl.*" />
+          <option name="PATTERN" value="Project.P3_Employee_Schedule_software.View.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,51 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Project.P3_BankcountControl.CheckAccount" />
+    <configuration name="TeamView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Project.P3_Employee_Schedule_software.View.TeamView" />
       <module name="BasicGrammar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Project.P3_BankcountControl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="equalsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OPP.equalsTest" />
-      <module name="BasicGrammar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OPP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="no_6_Inherit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OPP.no_6_Inherit" />
-      <module name="BasicGrammar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OPP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="no_7_polymorphism" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OPP.no_7_polymorphism" />
-      <module name="BasicGrammar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OPP.*" />
+          <option name="PATTERN" value="Project.P3_Employee_Schedule_software.View.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,13 +121,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NameListService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BasicGrammar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.P3_Employee_Schedule_software.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Project.P3_Employee_Schedule_software.service" />
+      <option name="MAIN_CLASS_NAME" value="Project.P3_Employee_Schedule_software.service.NameListService" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NameListService.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BasicGrammar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.P3_Employee_Schedule_software.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Project.P3_Employee_Schedule_software.service" />
+      <option name="MAIN_CLASS_NAME" value="Project.P3_Employee_Schedule_software.service.NameListService" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NameListService.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BasicGrammar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.P3_Employee_Schedule_software.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Project.P3_Employee_Schedule_software.service" />
+      <option name="MAIN_CLASS_NAME" value="Project.P3_Employee_Schedule_software.service.NameListService" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.equalsTest" />
-        <item itemvalue="Application.no_7_polymorphism" />
-        <item itemvalue="Application.CheckAccount" />
-        <item itemvalue="Application.Account" />
-        <item itemvalue="Application.no_6_Inherit" />
+        <item itemvalue="Application.TeamView" />
+        <item itemvalue="JUnit.NameListService" />
+        <item itemvalue="JUnit.NameListService.test" />
+        <item itemvalue="JUnit.NameListService.main" />
+        <item itemvalue="Application.TSUtility" />
       </list>
     </recent_temporary>
   </component>
@@ -157,103 +200,23 @@
       <workItem from="1623029390638" duration="1413000" />
       <workItem from="1624863292216" duration="3081000" />
       <workItem from="1624946850265" duration="986000" />
-      <workItem from="1624952421745" duration="4215000" />
+      <workItem from="1624952421745" duration="30317000" />
+      <workItem from="1625208653291" duration="19000" />
+      <workItem from="1625208693655" duration="617000" />
+      <workItem from="1625209787224" duration="2062000" />
+      <workItem from="1625233171047" duration="960000" />
+      <workItem from="1625550455457" duration="2806000" />
+      <workItem from="1626401922852" duration="7706000" />
+      <workItem from="1626675958194" duration="24136000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="208" y="41" key="#Project_Structure" timestamp="1622684611100">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state x="208" y="41" key="#Project_Structure/0.25.1440.875@0.25.1440.875" timestamp="1622684611100" />
-    <state x="184" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621933459377">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="184" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1621933459377" />
-    <state x="184" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875@0.25.1440.875" timestamp="1616743819145" />
-    <state x="603" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1624960845697">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state x="603" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1622536465581" />
-    <state x="603" y="75" key="#com.intellij.ide.util.MemberChooser/0.25.1440.875@0.25.1440.875" timestamp="1624960845697" />
-    <state x="505" y="25" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1622714762086">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state x="505" y="25" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.25.1440.875@0.25.1440.875" timestamp="1622714762086" />
-    <state x="467" y="201" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1622715642520">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state x="467" y="201" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.25.1440.875@0.25.1440.875" timestamp="1622715642520" />
-    <state width="1398" height="263" key="GridCell.Tab.0.bottom" timestamp="1624960203213">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state width="1398" height="361" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1622616744139" />
-    <state width="1398" height="263" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1624960203213" />
-    <state width="1398" height="263" key="GridCell.Tab.0.center" timestamp="1624960203212">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state width="1398" height="361" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1622616744137" />
-    <state width="1398" height="263" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1624960203212" />
-    <state width="1398" height="263" key="GridCell.Tab.0.left" timestamp="1624960203212">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state width="1398" height="361" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1622616744136" />
-    <state width="1398" height="263" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1624960203212" />
-    <state width="1398" height="263" key="GridCell.Tab.0.right" timestamp="1624960203213">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state width="1398" height="361" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1622616744138" />
-    <state width="1398" height="263" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1624960203213" />
-    <state width="1398" height="282" key="GridCell.Tab.1.bottom" timestamp="1622798219763">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1622615896768" />
-    <state width="1398" height="282" key="GridCell.Tab.1.bottom/0.25.1440.875@0.25.1440.875" timestamp="1622798219763" />
-    <state width="1398" height="282" key="GridCell.Tab.1.center" timestamp="1622798219762">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1622615896766" />
-    <state width="1398" height="282" key="GridCell.Tab.1.center/0.25.1440.875@0.25.1440.875" timestamp="1622798219762" />
-    <state width="1398" height="282" key="GridCell.Tab.1.left" timestamp="1622798219762">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1622615896765" />
-    <state width="1398" height="282" key="GridCell.Tab.1.left/0.25.1440.875@0.25.1440.875" timestamp="1622798219762" />
-    <state width="1398" height="282" key="GridCell.Tab.1.right" timestamp="1622798219762">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1622615896767" />
-    <state width="1398" height="282" key="GridCell.Tab.1.right/0.25.1440.875@0.25.1440.875" timestamp="1622798219762" />
-    <state x="229" y="80" key="SettingsEditor" timestamp="1622684015697">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state x="229" y="57" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1621934261650" />
-    <state x="229" y="80" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1622684015697" />
-    <state width="718" height="900" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1621931365782">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="718" height="900" key="com.intellij.byteCodeViewer.ShowByteCodeAction/0.0.1440.900@0.0.1440.900" timestamp="1621931365782" />
-    <state x="126" y="82" key="new project wizard" timestamp="1616743498003">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state x="126" y="82" key="new project wizard/0.25.1440.875@0.25.1440.875" timestamp="1616743498003" />
-    <state x="385" y="216" width="670" height="658" key="search.everywhere.popup" timestamp="1622796603845">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1622614890101" />
-    <state x="385" y="216" width="670" height="658" key="search.everywhere.popup/0.25.1440.875@0.25.1440.875" timestamp="1622796603845" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/OPP/test/Stranger.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/OPP/equalsTest.java</url>
           <line>106</line>
@@ -261,5 +224,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
